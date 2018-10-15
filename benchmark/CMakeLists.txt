@@ -5,6 +5,7 @@ if (NOT CMAKE_BUILD_TYPE STREQUAL "Release")
 endif()
 
 add_subdirectory(matrix_statistics)
+add_subdirectory(preconditioner)
 add_subdirectory(solver)
 add_subdirectory(spmv)
 add_subdirectory(spmv_comparison_cuda)
